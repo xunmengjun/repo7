@@ -11,6 +11,11 @@ public class FirstClass {
     }
 
     public void show(){
+        test();
         System.out.println("show...");
+    }
+
+    public void test(){
+        System.out.println("test");
     }
 }
